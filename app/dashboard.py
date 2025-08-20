@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Load dataset
-data = pd.read_csv("address of the salaries.csv file") # make sure this path is correct
+data = pd.read_csv("https://github.com/im-kaami/ISSP25-Project/blob/main/data/salaries.csv") # make sure this path is correct
 
 # Preprocessing
 data.drop(columns=['salary', 'salary_currency'], inplace=True)
